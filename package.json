@@ -1,0 +1,13 @@
+{
+  "name": "@erechnungswandler/e-rechnung-codelisten",
+  "version": "1.0.0",
+  "description": "Codelisten der deutschen E-Rechnung (UNTDID 1001, 4461, 5305, UN/ECE Rec 20/21) als JSON, mit deutschen Erklärungen",
+  "license": "MIT",
+  "files": ["daten", "README.md"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/belahamburg-sudo/e-rechnung-codelisten.git"
+  },
+  "homepage": "https://erechnungswandler.de/e-rechnung-codes",
+  "keywords": ["e-rechnung", "xrechnung", "zugferd", "untdid", "codelisten", "mengeneinheiten", "en16931"]
+}

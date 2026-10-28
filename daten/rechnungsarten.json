@@ -1,0 +1,152 @@
+{
+ "titel": "Invoice type code (UNCL1001 subset)",
+ "liste": "UNCL1001-inv",
+ "version": "D.16B",
+ "herausgeber": "UN/CEFACT",
+ "quelle": "OpenPeppol BIS Billing 3.0 Validierungsartefakte",
+ "deutsche_erklaerungen": "erechnungswandler.de/e-rechnung-codes",
+ "codes": [
+  {
+   "code": "71",
+   "name": "Request for payment",
+   "beschreibung_en": "Document/message issued by a creditor to a debtor to request payment of one or more invoices past due."
+  },
+  {
+   "code": "80",
+   "name": "Debit note related to goods or services",
+   "beschreibung_en": "Debit information related to a transaction for goods or services to the relevant party."
+  },
+  {
+   "code": "82",
+   "name": "Metered services invoice",
+   "beschreibung_en": "Document/message claiming payment for the supply of metered services (e.g., gas, electricity, etc.) supplied to a fixed meter whose consumption is measured over a period of time."
+  },
+  {
+   "code": "84",
+   "name": "Debit note related to financial adjustments",
+   "beschreibung_en": "Document/message for providing debit information related to financial adjustments to the relevant party."
+  },
+  {
+   "code": "102",
+   "name": "Tax notification",
+   "beschreibung_en": "Used to specify that the message is a tax notification."
+  },
+  {
+   "code": "218",
+   "name": "Final payment request based on completion of work",
+   "beschreibung_en": "The final payment request of a series of payment requests submitted upon completion of all the work."
+  },
+  {
+   "code": "219",
+   "name": "Payment request for completed units",
+   "beschreibung_en": "A request for payment for completed units."
+  },
+  {
+   "code": "326",
+   "name": "Partial invoice",
+   "beschreibung_en": "Document/message specifying details of an incomplete invoice.",
+   "deutsch": "Teilrechnung, zum Beispiel bei Lieferung in mehreren Teilen."
+  },
+  {
+   "code": "331",
+   "name": "Commercial invoice which includes a packing list",
+   "beschreibung_en": "Commercial transaction (invoice) will include a packing list."
+  },
+  {
+   "code": "380",
+   "name": "Commercial invoice",
+   "beschreibung_en": "(1334) Document/message claiming payment for goods or services supplied under conditions agreed between seller and buyer.",
+   "deutsch": "Normale Rechnung. Der Standard für fast alle Rechnungen."
+  },
+  {
+   "code": "382",
+   "name": "Commission note",
+   "beschreibung_en": "Document/message in which a seller specifies the amount of commission, the percentage of the invoice amount, or some other basis for the calculation of the commission to which a sales agent is entitled."
+  },
+  {
+   "code": "383",
+   "name": "Debit note",
+   "beschreibung_en": "Document/message for providing debit information to the relevant party."
+  },
+  {
+   "code": "384",
+   "name": "Corrected invoice",
+   "beschreibung_en": "Commercial invoice that includes revised information differing from an earlier submission of the same invoice.",
+   "deutsch": "Korrigierte Rechnung, ersetzt eine fehlerhafte Rechnung. In der XRechnung soll dann ein Verweis auf die ursprüngliche Rechnung stehen (BR-DE-26)."
+  },
+  {
+   "code": "386",
+   "name": "Prepayment invoice",
+   "beschreibung_en": "An invoice to pay amounts for goods and services in advance; these amounts will be subtracted from the final invoice."
+  },
+  {
+   "code": "388",
+   "name": "Tax invoice",
+   "beschreibung_en": "An invoice for tax purposes."
+  },
+  {
+   "code": "389",
+   "name": "Self-billed invoice",
+   "beschreibung_en": "An invoice the invoicee is producing instead of the seller.",
+   "deutsch": "Gutschrift im umsatzsteuerlichen Sinn: Der Käufer rechnet ab, nicht der Verkäufer (Gutschriftverfahren)."
+  },
+  {
+   "code": "393",
+   "name": "Factored invoice",
+   "beschreibung_en": "Invoice assigned to a third party for collection."
+  },
+  {
+   "code": "395",
+   "name": "Consignment invoice",
+   "beschreibung_en": "Commercial invoice that covers a transaction other than one involving a sale."
+  },
+  {
+   "code": "553",
+   "name": "Forwarder's invoice discrepancy report",
+   "beschreibung_en": "Document/message reporting invoice discrepancies indentified by the forwarder."
+  },
+  {
+   "code": "575",
+   "name": "Insurer's invoice",
+   "beschreibung_en": "Document/message issued by an insurer specifying the cost of an insurance which has been effected and claiming payment therefore."
+  },
+  {
+   "code": "623",
+   "name": "Forwarder's invoice",
+   "beschreibung_en": "Invoice issued by a freight forwarder specifying services rendered and costs incurred and claiming payment therefore."
+  },
+  {
+   "code": "780",
+   "name": "Freight invoice",
+   "beschreibung_en": "Document/message issued by a transport operation specifying freight costs and charges incurred for a transport operation and stating conditions of payment."
+  },
+  {
+   "code": "817",
+   "name": "Claim notification",
+   "beschreibung_en": "Document notifying a claim."
+  },
+  {
+   "code": "870",
+   "name": "Consular invoice",
+   "beschreibung_en": "Document/message to be prepared by an exporter in his country and presented to a diplomatic representation of the importing country for endorsement and subsequently to be presented by the importer in connection with the import of the goods described therein."
+  },
+  {
+   "code": "875",
+   "name": "Partial construction invoice",
+   "beschreibung_en": "Partial invoice in the context of a specific construction project.",
+   "deutsch": "Abschlagsrechnung für Bauleistungen."
+  },
+  {
+   "code": "876",
+   "name": "Partial final construction invoice",
+   "beschreibung_en": "Invoice concluding all previous partial construction invoices of a completed partial rendered service in the context of a specific construction project.",
+   "deutsch": "Teilschlussrechnung für Bauleistungen."
+  },
+  {
+   "code": "877",
+   "name": "Final construction invoice",
+   "beschreibung_en": "Invoice concluding all previous partial invoices and partial final construction invoices in the context of a specific construction project.",
+   "deutsch": "Schlussrechnung für Bauleistungen."
+  }
+ ]
+}

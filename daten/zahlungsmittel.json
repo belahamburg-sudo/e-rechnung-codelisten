@@ -1,0 +1,442 @@
+{
+ "titel": "Payment means code (UNCL4461)",
+ "liste": "UNCL4461",
+ "version": "D.16B",
+ "herausgeber": "UN/CEFACT",
+ "quelle": "OpenPeppol BIS Billing 3.0 Validierungsartefakte",
+ "deutsche_erklaerungen": "erechnungswandler.de/e-rechnung-codes",
+ "codes": [
+  {
+   "code": "1",
+   "name": "Instrument not defined",
+   "beschreibung_en": "Not defined legally enforceable agreement between two or more parties (expressing a contractual right or a right to the payment of money)."
+  },
+  {
+   "code": "2",
+   "name": "Automated clearing house credit",
+   "beschreibung_en": "A credit transaction made through the automated clearing house system."
+  },
+  {
+   "code": "3",
+   "name": "Automated clearing house debit",
+   "beschreibung_en": "A debit transaction made through the automated clearing house system."
+  },
+  {
+   "code": "4",
+   "name": "ACH demand debit reversal",
+   "beschreibung_en": "A request to reverse an ACH debit transaction to a demand deposit account."
+  },
+  {
+   "code": "5",
+   "name": "ACH demand credit reversal",
+   "beschreibung_en": "A request to reverse a credit transaction to a demand deposit account."
+  },
+  {
+   "code": "6",
+   "name": "ACH demand credit",
+   "beschreibung_en": "A credit transaction made through the ACH system to a demand deposit account."
+  },
+  {
+   "code": "7",
+   "name": "ACH demand debit",
+   "beschreibung_en": "A debit transaction made through the ACH system to a demand deposit account."
+  },
+  {
+   "code": "8",
+   "name": "Hold",
+   "beschreibung_en": "Indicates that the bank should hold the payment for collection by the beneficiary or other instructions."
+  },
+  {
+   "code": "9",
+   "name": "National or regional clearing",
+   "beschreibung_en": "Indicates that the payment should be made using the national or regional clearing."
+  },
+  {
+   "code": "10",
+   "name": "In cash",
+   "beschreibung_en": "Payment by currency (including bills and coins) in circulation, including checking account deposits.",
+   "deutsch": "Barzahlung."
+  },
+  {
+   "code": "11",
+   "name": "ACH savings credit reversal",
+   "beschreibung_en": "A request to reverse an ACH credit transaction to a savings account."
+  },
+  {
+   "code": "12",
+   "name": "ACH savings debit reversal",
+   "beschreibung_en": "A request to reverse an ACH debit transaction to a savings account."
+  },
+  {
+   "code": "13",
+   "name": "ACH savings credit",
+   "beschreibung_en": "A credit transaction made through the ACH system to a savings account."
+  },
+  {
+   "code": "14",
+   "name": "ACH savings debit",
+   "beschreibung_en": "A debit transaction made through the ACH system to a savings account."
+  },
+  {
+   "code": "15",
+   "name": "Bookentry credit",
+   "beschreibung_en": "A credit entry between two accounts at the same bank branch. Synonym: house credit."
+  },
+  {
+   "code": "16",
+   "name": "Bookentry debit",
+   "beschreibung_en": "A debit entry between two accounts at the same bank branch. Synonym: house debit."
+  },
+  {
+   "code": "17",
+   "name": "ACH demand cash concentration/disbursement (CCD) credit",
+   "beschreibung_en": "A credit transaction made through the ACH system to a demand deposit account using the CCD payment format."
+  },
+  {
+   "code": "18",
+   "name": "ACH demand cash concentration/disbursement (CCD) debit",
+   "beschreibung_en": "A debit transaction made through the ACH system to a demand deposit account using the CCD payment format."
+  },
+  {
+   "code": "19",
+   "name": "ACH demand corporate trade payment (CTP) credit",
+   "beschreibung_en": "A credit transaction made through the ACH system to a demand deposit account using the CTP payment format."
+  },
+  {
+   "code": "20",
+   "name": "Cheque",
+   "beschreibung_en": "Payment by a pre-printed form on which instructions are given to an account holder (a bank or building society) to pay a stated sum to a named recipient."
+  },
+  {
+   "code": "21",
+   "name": "Banker's draft",
+   "beschreibung_en": "Issue of a banker's draft in payment of the funds."
+  },
+  {
+   "code": "22",
+   "name": "Certified banker's draft",
+   "beschreibung_en": "Cheque drawn by a bank on itself or its agent. A person who owes money to another buys the draft from a bank for cash and hands it to the creditor who need have no fear that it might be dishonoured."
+  },
+  {
+   "code": "23",
+   "name": "Bank cheque (issued by a banking or similar establishment)",
+   "beschreibung_en": "Payment by a pre-printed form, which has been completed by a financial institution, on which instructions are given to an account holder (a bank or building society) to pay a stated sum to a named recipient."
+  },
+  {
+   "code": "24",
+   "name": "Bill of exchange awaiting acceptance",
+   "beschreibung_en": "Bill drawn by the creditor on the debtor but not yet accepted by the debtor."
+  },
+  {
+   "code": "25",
+   "name": "Certified cheque",
+   "beschreibung_en": "Payment by a pre-printed form stamped with the paying bank's certification on which instructions are given to an account holder (a bank or building society) to pay a stated sum to a named recipient ."
+  },
+  {
+   "code": "26",
+   "name": "Local cheque",
+   "beschreibung_en": "Indicates that the cheque is given local to the recipient."
+  },
+  {
+   "code": "27",
+   "name": "ACH demand corporate trade payment (CTP) debit",
+   "beschreibung_en": "A debit transaction made through the ACH system to a demand deposit account using the CTP payment format."
+  },
+  {
+   "code": "28",
+   "name": "ACH demand corporate trade exchange (CTX) credit",
+   "beschreibung_en": "A credit transaction made through the ACH system to a demand deposit account using the CTX payment format."
+  },
+  {
+   "code": "29",
+   "name": "ACH demand corporate trade exchange (CTX) debit",
+   "beschreibung_en": "A debit transaction made through the ACH system to a demand account using the CTX payment format."
+  },
+  {
+   "code": "30",
+   "name": "Credit transfer",
+   "beschreibung_en": "Payment by credit movement of funds from one account to another.",
+   "deutsch": "Überweisung ohne SEPA, zum Beispiel ins Ausland außerhalb des SEPA-Raums."
+  },
+  {
+   "code": "31",
+   "name": "Debit transfer",
+   "beschreibung_en": "Payment by debit movement of funds from one account to another."
+  },
+  {
+   "code": "32",
+   "name": "ACH demand cash concentration/disbursement plus (CCD+) credit",
+   "beschreibung_en": "A credit transaction made through the ACH system to a demand deposit account using the CCD+ payment format."
+  },
+  {
+   "code": "33",
+   "name": "ACH demand cash concentration/disbursement plus (CCD+) debit",
+   "beschreibung_en": "A debit transaction made through the ACH system to a demand deposit account using the CCD+ payment format."
+  },
+  {
+   "code": "34",
+   "name": "ACH prearranged payment and deposit (PPD)",
+   "beschreibung_en": "A consumer credit transaction made through the ACH system to a demand deposit or savings account."
+  },
+  {
+   "code": "35",
+   "name": "ACH savings cash concentration/disbursement (CCD) credit",
+   "beschreibung_en": "A credit transaction made through the ACH system to a demand deposit or savings account."
+  },
+  {
+   "code": "36",
+   "name": "ACH savings cash concentration/disbursement (CCD) debit",
+   "beschreibung_en": "A debit transaction made through the ACH system to a savings account using the CCD payment format."
+  },
+  {
+   "code": "37",
+   "name": "ACH savings corporate trade payment (CTP) credit",
+   "beschreibung_en": "A credit transaction made through the ACH system to a savings account using the CTP payment format."
+  },
+  {
+   "code": "38",
+   "name": "ACH savings corporate trade payment (CTP) debit",
+   "beschreibung_en": "A debit transaction made through the ACH system to a savings account using the CTP payment format."
+  },
+  {
+   "code": "39",
+   "name": "ACH savings corporate trade exchange (CTX) credit",
+   "beschreibung_en": "A credit transaction made through the ACH system to a savings account using the CTX payment format."
+  },
+  {
+   "code": "40",
+   "name": "ACH savings corporate trade exchange (CTX) debit",
+   "beschreibung_en": "A debit transaction made through the ACH system to a savings account using the CTX payment format."
+  },
+  {
+   "code": "41",
+   "name": "ACH savings cash concentration/disbursement plus (CCD+) credit",
+   "beschreibung_en": "A credit transaction made through the ACH system to a savings account using the CCD+ payment format."
+  },
+  {
+   "code": "42",
+   "name": "Payment to bank account",
+   "beschreibung_en": "Payment by an arrangement for settling debts that is operated by the Post Office.",
+   "deutsch": "Zahlung auf ein Bankkonto."
+  },
+  {
+   "code": "43",
+   "name": "ACH savings cash concentration/disbursement plus (CCD+) debit",
+   "beschreibung_en": "A debit transaction made through the ACH system to a savings account using the CCD+ payment format."
+  },
+  {
+   "code": "44",
+   "name": "Accepted bill of exchange",
+   "beschreibung_en": "Bill drawn by the creditor on the debtor and accepted by the debtor."
+  },
+  {
+   "code": "45",
+   "name": "Referenced home-banking credit transfer",
+   "beschreibung_en": "A referenced credit transfer initiated through home- banking."
+  },
+  {
+   "code": "46",
+   "name": "Interbank debit transfer",
+   "beschreibung_en": "A debit transfer via interbank means."
+  },
+  {
+   "code": "47",
+   "name": "Home-banking debit transfer",
+   "beschreibung_en": "A debit transfer initiated through home-banking."
+  },
+  {
+   "code": "48",
+   "name": "Bank card",
+   "beschreibung_en": "Payment by means of a card issued by a bank or other financial institution.",
+   "deutsch": "Kartenzahlung."
+  },
+  {
+   "code": "49",
+   "name": "Direct debit",
+   "beschreibung_en": "The amount is to be, or has been, directly debited to the customer's bank account.",
+   "deutsch": "Lastschrift ohne SEPA."
+  },
+  {
+   "code": "50",
+   "name": "Payment by postgiro",
+   "beschreibung_en": "A method for the transmission of funds through the postal system rather than through the banking system."
+  },
+  {
+   "code": "51",
+   "name": "FR, norme 6 97-Telereglement CFONB (French Organisation for",
+   "beschreibung_en": "Banking Standards) - Option A A French standard procedure that allows a debtor to pay an amount due to a creditor. The creditor will forward it to its bank, which will collect the money on the bank account of the debtor."
+  },
+  {
+   "code": "52",
+   "name": "Urgent commercial payment",
+   "beschreibung_en": "Payment order which requires guaranteed processing by the most appropriate means to ensure it occurs on the requested execution date, provided that it is issued to the ordered bank before the agreed cut-off time."
+  },
+  {
+   "code": "53",
+   "name": "Urgent Treasury Payment",
+   "beschreibung_en": "Payment order or transfer which must be executed, by the most appropriate means, as urgently as possible and before urgent commercial payments."
+  },
+  {
+   "code": "54",
+   "name": "Credit card",
+   "beschreibung_en": "Payment made by means of credit card.",
+   "deutsch": "Kreditkarte."
+  },
+  {
+   "code": "55",
+   "name": "Debit card",
+   "beschreibung_en": "Payment made by means of debit card.",
+   "deutsch": "Debitkarte."
+  },
+  {
+   "code": "56",
+   "name": "Bankgiro",
+   "beschreibung_en": "Payment will be, or has been, made by bankgiro."
+  },
+  {
+   "code": "57",
+   "name": "Standing agreement",
+   "beschreibung_en": "The payment means have been previously agreed between seller and buyer and thus are not stated again.",
+   "deutsch": "Dauerauftrag oder feste Vereinbarung."
+  },
+  {
+   "code": "58",
+   "name": "SEPA credit transfer",
+   "beschreibung_en": "Credit transfer inside the Single Euro Payment Area (SEPA) system.",
+   "deutsch": "SEPA-Überweisung. Der häufigste Code in Deutschland."
+  },
+  {
+   "code": "59",
+   "name": "SEPA direct debit",
+   "beschreibung_en": "Direct debit inside the Single Euro Payment Area (SEPA) system.",
+   "deutsch": "SEPA-Lastschrift. Verlangt in der XRechnung die Gläubiger-ID (BR-DE-30) und die IBAN des Kunden (BR-DE-31)."
+  },
+  {
+   "code": "60",
+   "name": "Promissory note",
+   "beschreibung_en": "Payment by an unconditional promise in writing made by one person to another, signed by the maker, engaging to pay on demand or at a fixed or determinable future time a sum certain in money, to order or to bearer."
+  },
+  {
+   "code": "61",
+   "name": "Promissory note signed by the debtor",
+   "beschreibung_en": "Payment by an unconditional promise in writing made by the debtor to another person, signed by the debtor, engaging to pay on demand or at a fixed or determinable future time a sum certain in money, to order or to bearer."
+  },
+  {
+   "code": "62",
+   "name": "Promissory note signed by the debtor and endorsed by a bank",
+   "beschreibung_en": "Payment by an unconditional promise in writing made by the debtor to another person, signed by the debtor and endorsed by a bank, engaging to pay on demand or at a fixed or determinable future time a sum certain in money, to order or to bearer."
+  },
+  {
+   "code": "63",
+   "name": "Promissory note signed by the debtor and endorsed by a third party",
+   "beschreibung_en": "Payment by an unconditional promise in writing made by the debtor to another person, signed by the debtor and endorsed by a third party, engaging to pay on demand or at a fixed or determinable future time a sum certain in money, to order or to bearer."
+  },
+  {
+   "code": "64",
+   "name": "Promissory note signed by a bank",
+   "beschreibung_en": "Payment by an unconditional promise in writing made by the bank to another person, signed by the bank, engaging to pay on demand or at a fixed or determinable future time a sum certain in money, to order or to bearer."
+  },
+  {
+   "code": "65",
+   "name": "Promissory note signed by a bank and endorsed by another bank",
+   "beschreibung_en": "Payment by an unconditional promise in writing made by the bank to another person, signed by the bank and endorsed by another bank, engaging to pay on demand or at a fixed or determinable future time a sum certain in money, to order or to bearer."
+  },
+  {
+   "code": "66",
+   "name": "Promissory note signed by a third party",
+   "beschreibung_en": "Payment by an unconditional promise in writing made by a third party to another person, signed by the third party, engaging to pay on demand or at a fixed or determinable future time a sum certain in money, to order or to bearer."
+  },
+  {
+   "code": "67",
+   "name": "Promissory note signed by a third party and endorsed by a bank",
+   "beschreibung_en": "Payment by an unconditional promise in writing made by a third party to another person, signed by the third party and endorsed by a bank, engaging to pay on demand or at a fixed or determinable future time a sum certain in money, to order or to bearer."
+  },
+  {
+   "code": "68",
+   "name": "Online payment service",
+   "beschreibung_en": "Payment will be made or has been made by an online payment service.",
+   "deutsch": "Bezahldienst im Internet."
+  },
+  {
+   "code": "70",
+   "name": "Bill drawn by the creditor on the debtor",
+   "beschreibung_en": "Bill drawn by the creditor on the debtor."
+  },
+  {
+   "code": "74",
+   "name": "Bill drawn by the creditor on a bank",
+   "beschreibung_en": "Bill drawn by the creditor on a bank."
+  },
+  {
+   "code": "75",
+   "name": "Bill drawn by the creditor, endorsed by another bank",
+   "beschreibung_en": "Bill drawn by the creditor, endorsed by another bank."
+  },
+  {
+   "code": "76",
+   "name": "Bill drawn by the creditor on a bank and endorsed by a third party",
+   "beschreibung_en": "Bill drawn by the creditor on a bank and endorsed by a third party."
+  },
+  {
+   "code": "77",
+   "name": "Bill drawn by the creditor on a third party",
+   "beschreibung_en": "Bill drawn by the creditor on a third party."
+  },
+  {
+   "code": "78",
+   "name": "Bill drawn by creditor on third party, accepted and endorsed by bank",
+   "beschreibung_en": "Bill drawn by creditor on third party, accepted and endorsed by bank."
+  },
+  {
+   "code": "91",
+   "name": "Not transferable banker's draft",
+   "beschreibung_en": "Issue a bankers draft not endorsable."
+  },
+  {
+   "code": "92",
+   "name": "Not transferable local cheque",
+   "beschreibung_en": "Issue a cheque not endorsable in payment of the funds."
+  },
+  {
+   "code": "93",
+   "name": "Reference giro",
+   "beschreibung_en": "Ordering customer tells the bank to use the payment system 'Reference giro'. Used in the Finnish national banking system."
+  },
+  {
+   "code": "94",
+   "name": "Urgent giro",
+   "beschreibung_en": "Ordering customer tells the bank to use the bank service 'Urgent Giro' when transferring the payment. Used in Finnish national banking system."
+  },
+  {
+   "code": "95",
+   "name": "Free format giro",
+   "beschreibung_en": "Ordering customer tells the ordering bank to use the bank service 'Free Format Giro' when transferring the payment. Used in Finnish national banking system."
+  },
+  {
+   "code": "96",
+   "name": "Requested method for payment was not used",
+   "beschreibung_en": "If the requested method for payment was or could not be used, this code indicates that."
+  },
+  {
+   "code": "97",
+   "name": "Clearing between partners",
+   "beschreibung_en": "Amounts which two partners owe to each other to be compensated in order to avoid useless payments.",
+   "deutsch": "Verrechnung zwischen den Geschäftspartnern."
+  },
+  {
+   "code": "98",
+   "name": "JP, Electronically Recorded Monetary Claims",
+   "beschreibung_en": "An electronically recorded monetary claim is a claim that is separate from the underlying debt that gave rise to its accrual.Therefore, even if an electronically recorded monetary claim is accrued as a means of payment of the underlying debt, the underlying debt will not be extinguished as a matter of course."
+  },
+  {
+   "code": "ZZZ",
+   "name": "Mutually defined",
+   "beschreibung_en": "A code assigned within a code list to be used on an interim basis and as defined among trading partners until a precise code can be assigned to the code list.",
+   "deutsch": "Individuell vereinbart."
+  },
+  {
+   "code": "69",
+   "name": "Transfer Advice"
+  }
+ ]
+}

@@ -1,0 +1,69 @@
+{
+ "titel": "Duty or tax or fee category code (Subset of UNCL5305)",
+ "liste": "UNCL5305",
+ "version": "D.16B",
+ "herausgeber": "UN/CEFACT",
+ "quelle": "OpenPeppol BIS Billing 3.0 Validierungsartefakte",
+ "deutsche_erklaerungen": "erechnungswandler.de/e-rechnung-codes",
+ "codes": [
+  {
+   "code": "AE",
+   "name": "Vat Reverse Charge",
+   "beschreibung_en": "Code specifying that the standard VAT rate is levied from the invoicee.",
+   "deutsch": "Umkehrung der Steuerschuldnerschaft: Der Kunde schuldet die Umsatzsteuer (§ 13b UStG)."
+  },
+  {
+   "code": "E",
+   "name": "Exempt from Tax",
+   "beschreibung_en": "Code specifying that taxes are not applicable.",
+   "deutsch": "Steuerbefreit. Der Befreiungsgrund muss angegeben werden."
+  },
+  {
+   "code": "S",
+   "name": "Standard rate",
+   "beschreibung_en": "Code specifying the standard rate.",
+   "deutsch": "Umsatzsteuer wird berechnet, egal ob Regelsatz oder ermäßigter Satz (zum Beispiel 19 % oder 7 %)."
+  },
+  {
+   "code": "Z",
+   "name": "Zero rated goods",
+   "beschreibung_en": "Code specifying that the goods are at a zero rate.",
+   "deutsch": "Steuersatz 0 %."
+  },
+  {
+   "code": "G",
+   "name": "Free export item, VAT not charged",
+   "beschreibung_en": "Code specifying that the item is free export and taxes are not charged.",
+   "deutsch": "Steuerfreie Ausfuhr außerhalb der EU."
+  },
+  {
+   "code": "O",
+   "name": "Services outside scope of tax",
+   "beschreibung_en": "Code specifying that taxes are not applicable to the services.",
+   "deutsch": "Nicht steuerbar, die Leistung fällt nicht unter die Umsatzsteuer."
+  },
+  {
+   "code": "K",
+   "name": "VAT exempt for EEA intra-community supply of goods and services",
+   "beschreibung_en": "A tax category code indicating the item is VAT exempt due to an intra-community supply in the European Economic Area.",
+   "deutsch": "Steuerfreie innergemeinschaftliche Lieferung oder Leistung an Unternehmen in anderen EU-Staaten."
+  },
+  {
+   "code": "L",
+   "name": "Canary Islands general indirect tax",
+   "beschreibung_en": "Impuesto General Indirecto Canario (IGIC) is an indirect tax levied on goods and services supplied in the Canary Islands (Spain) by traders and professionals, as well as on import of goods.",
+   "deutsch": "Steuer der Kanarischen Inseln (IGIC)."
+  },
+  {
+   "code": "M",
+   "name": "Tax for production, services and importation in Ceuta and Melilla",
+   "beschreibung_en": "Impuesto sobre la Producción, los Servicios y la Importación (IPSI) is an indirect municipal tax, levied on the production, processing and import of all kinds of movable tangible property, the supply of services and the transfer of immovable property located in the cities of Ceuta and Melilla.",
+   "deutsch": "Steuer in Ceuta und Melilla (IPSI)."
+  },
+  {
+   "code": "B",
+   "name": "Transferred (VAT), In Italy",
+   "beschreibung_en": "VAT not to be paid to the issuer of the invoice but directly to relevant tax authority. This code is allowed in the EN 16931 for Italy only based on the Italian A-deviation."
+  }
+ ]
+}
